@@ -9,7 +9,7 @@ CREATE TABLE IF NOT EXISTS shopping_list (
 );
 
 DROP TYPE IF EXISTS groceries;
-CREATE TYPE IF NOT EXISTS groceries AS ENUM (
+CREATE TYPE groceries AS ENUM (
     'Main',
     'Snack',
     'Lunch',
